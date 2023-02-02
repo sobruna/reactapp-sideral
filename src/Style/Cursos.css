@@ -1,0 +1,30 @@
+.cursos {
+    font-family: 'Kanit', sans-serif;
+    font: size 48px;
+    width: 60%;
+    height: 500px;
+    align-items: center;
+    margin-left: 50%;
+    transform: translatex(-50%);
+    margin-left:20%;
+    transform: translateY(-13%);
+    
+}
+
+.cursos h1 {
+    color: #f2f2f2;
+    text-align: center;
+    
+}
+
+.cursos li {
+    color: #f2f2f2;
+    list-style-type: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #000;
+    width: 30%;
+    padding: 5px;
+    margin: 10px;
+} 
