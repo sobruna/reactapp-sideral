@@ -13,9 +13,6 @@ export default function AppHeader() {
     <div class="m-4 mb-5">
       <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
         <div class="container-fluid">
-          <Link className="navbar-brand" to="/">
-            <img className="icon sp-logo" src={logo} />
-          </Link>
           <button
             type="button"
             class="navbar-toggler"
@@ -26,6 +23,12 @@ export default function AppHeader() {
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
+              <Link className="navbar-brand" to="/">
+                <img className="icon sp-logo" src={logo} />
+              </Link>
+              <Link to="/" class="nav-item nav-link active">
+                Sideral
+              </Link>
               <Link to="/cursos" class="nav-item nav-link active">
                 Cursos
               </Link>

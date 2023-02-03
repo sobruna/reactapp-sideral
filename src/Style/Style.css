@@ -50,3 +50,7 @@
      position: fixed;
      right: 0;
   }
+
+  #root{
+    background-color: #bb7fd9;
+  }

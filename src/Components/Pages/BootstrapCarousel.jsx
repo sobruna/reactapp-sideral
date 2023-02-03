@@ -7,7 +7,12 @@ import EstudanteNotebookMulher from "../../Images/Carousel/estudante-notebook-mu
 
 function BootstrapCarousel() {
   return (
-    <div className="w-75 m-4">
+    <div
+      className="w-75 m-4"
+      style={{
+        backgroundColor: "#bb7fd9",
+      }}
+    >
       <Carousel className="Carrossel">
         <Carousel.Item>
           <img className="d-block w-100" src={ChamadaZoom} alt="First slide" />
