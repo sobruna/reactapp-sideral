@@ -14,7 +14,6 @@ import Cookies from "universal-cookie";
 const cookies = new Cookies();
 
 export default function Login() {
-  // initial state
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [login, setLogin] = useState(false);
@@ -25,10 +24,7 @@ export default function Login() {
   };
 
   const handleSubmit = (e) => {
-    // prevent the form from refreshing the whole page
     e.preventDefault();
-
-    // set configurations
     const configuration = {
       method: "post",
       url: "ec2-54-160-84-162.compute-1.amazonaws.com:3000/users/login",
@@ -37,14 +33,11 @@ export default function Login() {
         password,
       },
     };
-    // make the API call
     axios(configuration)
       .then((result) => {
-        // set the cookie
         cookies.set("token", result.data.token, {
           path: "/",
         });
-        // redirect user to the auth page
         window.location.href = "/minhaconta";
 
         setLogin(true);
@@ -53,25 +46,6 @@ export default function Login() {
         error = new Error();
       });
   };
-  // const [email, SetEmail] = React.useState("");
-  // const [password, SetPassword] = React.useState("");
-  // const handleLogin = async () => {
-  //   let result = await fetch("http://localhost:3000/users/login", {
-  //     method: "post",
-  //     body: JSON.stringify({ email, password }),
-  //     hearders: {
-  //       "Content-Type": "application/json",
-  //     },
-  //   });
-  //   result = await result.json();
-  //   console.warn(result);
-  //   if (result.name) {
-  //   } else {
-  //     alert("Verifique seu e-mail ou senha, por favor!");
-  //     console.log(email, password);
-  //   }
-  // };
-
   return (
     <Default>
       <section
