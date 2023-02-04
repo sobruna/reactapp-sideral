@@ -31,7 +31,7 @@ export default function Login() {
     // set configurations
     const configuration = {
       method: "post",
-      url: "http://localhost:3000/users/login",
+      url: "http://ec2-54-160-84-162.compute-1.amazonaws.com:3000/users/login",
       data: {
         email,
         password,
