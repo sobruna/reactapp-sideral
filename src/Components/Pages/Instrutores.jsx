@@ -39,7 +39,7 @@ export default function Instrutores() {
                 ></img>
                 <h5 className="mb-0">Till Lindemann</h5>
                 <span className="small text-uppercase text-muted">
-                  Fundados da Sideral, desenvolvedor desde 1988 e atual Pyro
+                  Fundador da Sideral, desenvolvedor desde 1988 e atual Pyro
                   Tech Lead da Rammstein
                 </span>
 
