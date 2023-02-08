@@ -1,7 +1,6 @@
 import React from "react";
 import LoggedIn from "../Templates/LoggedIn";
 import "../../Style/Style.css";
-import "../../Style/Cadastro.css";
 import "../../Style/Cursos.css";
 import "../../Style/Login.css";
 import "../../Style/TermosDeUso.css";

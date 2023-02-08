@@ -35,13 +35,10 @@ export default function AppHeader() {
               <Link to="/instrutores" class="nav-item nav-link active">
                 Instrutores
               </Link>
-              <Link to="/cadastro" class="nav-item nav-link active">
-                Cadastro
-              </Link>
             </div>
             <div class="navbar-nav ms-auto">
               <Link to="/login" class="nav-item nav-link">
-                Login
+                Login - Cadastre-se
               </Link>
             </div>
           </div>

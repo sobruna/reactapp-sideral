@@ -14,9 +14,8 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div
-      className="d-inline-flex"
       style={{
-        position: "d-flex",
+        position: "fixed",
         height: "100vh",
         overflow: "scroll initial",
         backgroundColor: "#bb7fd9",

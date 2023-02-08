@@ -25,11 +25,6 @@ export default function AppFooter() {
               </Link>
             </li>
             <li className="nav-item mb-2">
-              <Link to="/cadastro" className="nav-link p-0 text-light">
-                Cadastro
-              </Link>
-            </li>
-            <li className="nav-item mb-2">
               <Link to="/termos-de-uso" className="nav-link p-0 text-light">
                 Termos de Uso
               </Link>

@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f585b5db.css",
+    "main.js": "/static/js/main.32095a3a.js",
+    "static/js/787.e32fc424.chunk.js": "/static/js/787.e32fc424.chunk.js",
+    "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
+    "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
+    "static/media/estudante-notebook-mulher.jpg": "/static/media/estudante-notebook-mulher.a62f25f28daca9045b60.jpg",
+    "static/media/estudante-tablet.jpg": "/static/media/estudante-tablet.d36789355ac355d911e8.jpg",
+    "static/media/aboutuslofi.png": "/static/media/aboutuslofi.2a046a7a7ef6ebf73b76.png",
+    "static/media/aboutuspro.png": "/static/media/aboutuspro.1bcfc36c1563f89e107e.png",
+    "static/media/instrutor_02.jpg": "/static/media/instrutor_02.d9f2677fab7e0b5b45d7.jpg",
+    "static/media/aboutusparede.png": "/static/media/aboutusparede.0f5da7f310d8a3807d18.png",
+    "static/media/chamada-zoom.jpg": "/static/media/chamada-zoom.a73759b811cfc74841ce.jpg",
+    "static/media/estudante-notebook.jpg": "/static/media/estudante-notebook.d2ec6df006992ce0f2e3.jpg",
+    "static/media/fa-solid-900.eot": "/static/media/fa-solid-900.9bbb245e67a133f6e486.eot",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.be9ee23c0c6390141475.ttf",
+    "static/media/fa-regular-400.svg": "/static/media/fa-regular-400.4689f52cc96215721344.svg",
+    "static/media/fa-brands-400.eot": "/static/media/fa-brands-400.23f19bb08961f37aaf69.eot",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.527940b104eb2ea366c8.ttf",
+    "static/media/fa-solid-900.woff": "/static/media/fa-solid-900.eeccf4f66002c6f2ba24.woff",
+    "static/media/fa-brands-400.woff": "/static/media/fa-brands-400.2285773e6b4b172f07d9.woff",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
+    "static/media/login.jpg": "/static/media/login.12d91d0328c72805f712.jpg",
+    "static/media/fa-regular-400.eot": "/static/media/fa-regular-400.77206a6bb316fa0aded5.eot",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.491974d108fe4002b2aa.ttf",
+    "static/media/fa-regular-400.woff": "/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
+    "static/media/instrutor_03.jpg": "/static/media/instrutor_03.30bb7bb9a225a5b19316.jpg",
+    "static/media/instrutor_04.jpg": "/static/media/instrutor_04.56d82d54c6a449bfda97.jpg",
+    "index.html": "/index.html",
+    "main.f585b5db.css.map": "/static/css/main.f585b5db.css.map",
+    "main.32095a3a.js.map": "/static/js/main.32095a3a.js.map",
+    "787.e32fc424.chunk.js.map": "/static/js/787.e32fc424.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f585b5db.css",
+    "static/js/main.32095a3a.js"
+  ]
+}
