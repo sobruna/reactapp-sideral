@@ -44,10 +44,8 @@ function BootstrapCarousel() {
           />
 
           <Carousel.Caption className="bg-black bg-opacity-50 rounded-4">
-            <h3>Third slide label</h3>
-            <h4>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </h4>
+            <h3>Vários opções cursos</h3>
+            <h4>Tudo de tech pra você se especializar</h4>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -58,9 +56,9 @@ function BootstrapCarousel() {
           />
 
           <Carousel.Caption className="bg-black bg-opacity-50 rounded-4">
-            <h3>Third slide label</h3>
+            <h3>Faça seu cadastro gratuito</h3>
             <h4>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              Você já ganha acesso a materiais incríveis para começar a explorar
             </h4>
           </Carousel.Caption>
         </Carousel.Item>
