@@ -35,11 +35,7 @@ const Sidebar = () => {
                 Meus cursos
               </CDBSidebarMenuItem>
             </NavLink>
-            <NavLink
-              exact
-              to="/materialdeapoio"
-              activeClassName="activeClicked"
-            >
+            <NavLink exact to="/apoio" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="table">
                 Material de Apoio
               </CDBSidebarMenuItem>

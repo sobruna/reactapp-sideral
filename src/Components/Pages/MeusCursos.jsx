@@ -1,99 +1,60 @@
 import React from "react";
-import logo from "../../Images/icon.png";
+
+import Default from "../Templates/Default";
 import LoggedIn from "../Templates/LoggedIn";
 import "../../Style/Style.css";
 import "../../Style/Cursos.css";
 import "../../Style/Login.css";
 import "../../Style/TermosDeUso.css";
+import logo from "../../Images/icon.png";
 
-export default function MeusCursos() {
+//<h2 className="py-5 text-center">Meus Cursos</h2>
+
+export default function TrabalheConosco() {
   return (
     <LoggedIn>
-      <div className="container px-4 py-5" id="custom-cards">
-        <h4 className="pb-2 border-bottom text-right">Meus cursos</h4>
-        <div className="d-flex justify-content-end flex-column g-4 py-5">
-          <div className="w-50 justify-content-end">
-            <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-              <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h4 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                  Full Stack Development
-                </h4>
-                <ul className="d-flex list-unstyled mt-auto">
-                  <li className="me-auto">
-                    <img
-                      src={logo}
-                      alt="Logo Sideral"
-                      width="32"
-                      height="32"
-                      className="rounded-circle border border-white"
-                    />
-                  </li>
-                  <li className="d-flex align-items-center me-3">
-                    <svg className="bi me-2" width="1em" height="1em">
-                      <use xlinkHref="#geo-fill"></use>
-                    </svg>
-                    <small>Iniciar</small>
-                  </li>
-                  <li className="d-flex align-items-center"></li>
-                </ul>
-              </div>
-            </div>
+      <div
+        className="d-flex d-inline-flex flex-column"
+        style={{
+          marginLeft: "20%",
+        }}
+      >
+        <div className="d-flex d-inline-flex border-bottom border-white mb-5">
+          <h1 className="text-center">Meus Cursos</h1>
+        </div>
+        <div className="card m-2 cursos-logado border rounded bg-dark card text-white">
+          <div className="card-body">
+            {" "}
+            <h5 className="card-title text-center">Análise de mídia</h5>
+            <p className="card-text text-primary">Status:</p>
+            <p className="card-text">Em andamento</p>
+            <a href="/" className="btn btn-primary">
+              Acessar o curso
+            </a>{" "}
           </div>
-
-          <div className="w-50 justify-content-end">
-            <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-              <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h4 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                  User experience Design
-                </h4>
-                <ul className="d-flex list-unstyled mt-auto">
-                  <li className="me-auto">
-                    <img
-                      src={logo}
-                      alt="Logo Sideral"
-                      width="32"
-                      height="32"
-                      className="rounded-circle border border-white"
-                    />
-                  </li>
-                  <li className="d-flex align-items-center me-3">
-                    <svg className="bi me-2" width="1em" height="1em">
-                      <use xlinkHref="#geo-fill"></use>
-                    </svg>
-                    <small>Em andamento</small>
-                  </li>
-                  <li className="d-flex align-items-center"></li>
-                </ul>
-              </div>
-            </div>
+        </div>
+        <div className="card m-2 cursos-logado border rounded bg-dark card text-white">
+          <div className="card-body">
+            {" "}
+            <h5 className="card-title text-center">
+              Desenvolvedor de Jogos - Unity
+            </h5>
+            <p className="card-text text-primary">Status:</p>
+            <p className="card-text">Em andamento</p>
+            <a href="/" className="btn btn-primary">
+              Acessar o curso
+            </a>{" "}
           </div>
-
-          <div className="w-50 justify-content-end">
-            <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-              <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                <h4 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                  Data Science & Machine Learning
-                </h4>
-                <ul className="d-flex list-unstyled mt-auto">
-                  <li className="me-auto">
-                    <img
-                      src={logo}
-                      alt="Logo Sideral"
-                      width="32"
-                      height="32"
-                      className="rounded-circle border border-white"
-                    />
-                  </li>
-                  <li className="d-flex align-items-center me-3">
-                    <svg className="bi me-2" width="1em" height="1em">
-                      <use xlinkHref="#geo-fill"></use>
-                    </svg>
-                    <small>Concluído</small>
-                  </li>
-                  <li className="d-flex align-items-center"></li>
-                </ul>
-              </div>
-            </div>
+        </div>
+        <div className="card m-2 cursos-logado border rounded bg-dark card text-white">
+          <div className="card-body">
+            {" "}
+            <h5 className="card-title text-center">Produtos Digitais</h5>
+            <p className="card-text text-info">Status:</p>
+            <p className="card-text">Não foi iniciado</p>
+            <a href="/" className="btn btn-primary">
+              Acessar o curso
+            </a>{" "}
           </div>
         </div>
       </div>

@@ -9,13 +9,14 @@ export default function MinhaConta() {
   return (
     <LoggedIn>
       <div
-        className="row fixed-right div-profile"
+        className="d-flex d-inline-flex flex-column"
         style={{
-          backgroundColor: "#bb7fd9",
+          marginLeft: "20%",
         }}
       >
-        <div className="col-md-3 border-right">
-          <div className="d-flex flex-column align-items-center text-center p-3 py-5">
+        <h1> Em Construção </h1>
+        {/* <div className="">
+          <div className="d-flex d-inline-flex border-bottom border-white mb-5">
             <img
               className="rounded-circle mt-5"
               width="150px"
@@ -96,7 +97,7 @@ export default function MinhaConta() {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </LoggedIn>
   );

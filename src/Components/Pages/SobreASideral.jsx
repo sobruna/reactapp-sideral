@@ -35,16 +35,17 @@ export default function SobreASideral() {
         <div className="container py-5">
           <div className="row align-items-center mb-5">
             <div className="col-lg-6 order-2 order-lg-1">
-              <i className="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
               <h2 className="font-weight-light">Como funciona?</h2>
               <p className="font-italic text-muted mb-4">
-                Os cursos são streamings assíncronos. Você entra numa "sala" com
-                pessoas que estão na mesma parte que você, e nessa mesma sala
-                haveram pelo menos dois instrutores disponíveis para tirar
-                dúvidas e dar todo o suporte que você precisar!
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Est
+                pellentesque elit ullamcorper dignissim cras tincidunt lobortis.
+                Egestas maecenas pharetra convallis posuere morbi leo urna
+                molestie at. Ullamcorper sit amet risus nullam. Elementum
+                integer enim neque volutpat ac tincidunt vitae.
               </p>
               <a href="#" className="btn btn-light px-5 rounded-pill shadow-sm">
-                Learn More
+                Saiba mais!
               </a>
             </div>
             <div className="col-lg-5 px-5 mx-auto order-1 order-lg-2">
@@ -64,7 +65,6 @@ export default function SobreASideral() {
               ></img>
             </div>
             <div className="col-lg-6">
-              <i className="fa fa-leaf fa-2x mb-3 text-primary"></i>
               <h2 className="font-weight-light">Lorem ipsum dolor sit amet</h2>
               <p className="font-italic text-muted mb-4">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
