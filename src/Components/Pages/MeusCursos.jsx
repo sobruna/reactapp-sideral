@@ -22,7 +22,7 @@ export default function TrabalheConosco() {
         <div className="d-flex d-inline-flex border-bottom border-white mb-5">
           <h1 className="text-center">Meus Cursos</h1>
         </div>
-        <div className="card m-2 cursos-logado border rounded bg-dark card text-white">
+        <div className="card m-2 p-2 cursos-logado border rounded bg-dark card text-white">
           <div className="card-body">
             {" "}
             <h5 className="card-title text-center">Análise de mídia</h5>
@@ -33,7 +33,7 @@ export default function TrabalheConosco() {
             </a>{" "}
           </div>
         </div>
-        <div className="card m-2 cursos-logado border rounded bg-dark card text-white">
+        <div className="card m-2 p-2 cursos-logado border rounded bg-dark card text-white">
           <div className="card-body">
             {" "}
             <h5 className="card-title text-center">
@@ -46,7 +46,7 @@ export default function TrabalheConosco() {
             </a>{" "}
           </div>
         </div>
-        <div className="card m-2 cursos-logado border rounded bg-dark card text-white">
+        <div className="card m-2 p-2 cursos-logado border rounded bg-dark card text-white">
           <div className="card-body">
             {" "}
             <h5 className="card-title text-center">Produtos Digitais</h5>

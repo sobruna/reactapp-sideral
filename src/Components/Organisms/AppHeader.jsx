@@ -10,34 +10,34 @@ import "../../Style/Import.css";
 
 export default function AppHeader() {
   return (
-    <div class="m-4 mb-5">
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-        <div class="container-fluid">
+    <div className="m-4 mb-5">
+      <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <div className="container-fluid">
           <button
             type="button"
-            class="navbar-toggler"
+            className="navbar-toggler"
             data-bs-toggle="collapse"
             data-bs-target="#navbarCollapse"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav">
+          <div className="collapse navbar-collapse" id="navbarCollapse">
+            <div className="navbar-nav">
               <Link className="navbar-brand" to="/">
                 <img className="icon sp-logo" src={logo} />
               </Link>
-              <Link to="/" class="nav-item nav-link active">
+              <Link to="/" className="nav-item nav-link active">
                 Sideral
               </Link>
-              <Link to="/cursos" class="nav-item nav-link active">
+              <Link to="/cursos" className="nav-item nav-link active">
                 Cursos
               </Link>
-              <Link to="/instrutores" class="nav-item nav-link active">
+              <Link to="/instrutores" className="nav-item nav-link active">
                 Instrutores
               </Link>
             </div>
-            <div class="navbar-nav ms-auto">
-              <Link to="/login" class="nav-item nav-link">
+            <div className="navbar-nav ms-auto">
+              <Link to="/login" className="nav-item nav-link">
                 Login - Cadastre-se
               </Link>
             </div>

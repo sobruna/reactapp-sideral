@@ -65,7 +65,7 @@ export default function SideralNaImprensa() {
         cookies.set("token", result.data.token, {
           path: "/",
         });
-        window.location.href = "/minhaconta";
+        window.location.href = "/meuscursos";
 
         setLogin(true);
       })
@@ -98,6 +98,21 @@ export default function SideralNaImprensa() {
     } catch (error) {
       console.error(error.response.data);
     }
+  };
+
+  // tentativa de fazer o botão fazer loading
+
+  const loadingBtn = (e) => {
+    document.ready(function () {
+      "#btnFetch".click(function () {
+        // disable button
+        this.prop("disabled", true);
+        // add spinner to button
+        this.html(
+          `<span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Carregando...`
+        );
+      });
+    });
   };
 
   //página:
@@ -178,6 +193,7 @@ export default function SideralNaImprensa() {
               <MDBBtn
                 className="mb-4 w-100"
                 type="button"
+                id="btnFetch"
                 onClick={handleSubmit}
               >
                 Fazer login

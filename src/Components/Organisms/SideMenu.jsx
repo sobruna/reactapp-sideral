@@ -8,6 +8,7 @@ import {
   CDBSidebarMenuItem,
 } from "cdbreact";
 import { NavLink } from "react-router-dom";
+import logo from "../../Images/icon.png";
 import { BrowserRouter as Router } from "react-router-dom";
 import "../../Style/Import.css";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
@@ -24,23 +25,38 @@ const Sidebar = () => {
     >
       <CDBSidebar>
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
-          <a href="/" className="text-decoration-none">
-            Bem vindo de volta!
-          </a>
+          <Link className="navbar-brand" to="/">
+            <img className="icon sp-logo-side" src={logo} />
+          </Link>
         </CDBSidebarHeader>
         <CDBSidebarContent className="sidebar-content">
           <CDBSidebarMenu>
-            <NavLink exact to="/meuscursos" activeClassName="activeClicked">
+            <NavLink
+              exact
+              to="/meuscursos"
+              activeClassName="activeClicked"
+              className="nav-link nav-item"
+            >
               <CDBSidebarMenuItem icon="columns">
                 Meus cursos
               </CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/apoio" activeClassName="activeClicked">
+            <NavLink
+              exact
+              to="/apoio"
+              activeClassName="activeClicked"
+              className="nav-link nav-item"
+            >
               <CDBSidebarMenuItem icon="table">
                 Material de Apoio
               </CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/minhaconta" activeClassName="activeClicked">
+            <NavLink
+              exact
+              to="/minhaconta"
+              activeClassName="activeClicked"
+              className="nav-link nav-item"
+            >
               <CDBSidebarMenuItem icon="user">Minha Conta</CDBSidebarMenuItem>
             </NavLink>
           </CDBSidebarMenu>

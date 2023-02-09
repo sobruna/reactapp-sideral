@@ -71,7 +71,7 @@ export default function SobreASideral() {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
               <a href="#" className="btn btn-light px-5 rounded-pill shadow-sm">
-                Learn More
+                Saiba mais
               </a>
             </div>
           </div>
