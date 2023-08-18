@@ -25,7 +25,7 @@ export default function TrabalheConosco() {
         <div className="card m-2 p-2 cursos-logado border rounded bg-dark card text-white">
           <div className="card-body">
             {" "}
-            <h5 className="card-title text-center">Análise de mídia</h5>
+            <h5 className="card-title text-center">Análise de mídia BLABLA </h5>
             <p className="card-text text-primary">Status:</p>
             <p className="card-text">Em andamento</p>
             <a href="/" className="btn btn-primary">

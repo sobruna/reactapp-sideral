@@ -14,7 +14,9 @@ export default function TrabalheConosco() {
   return (
     <LoggedIn>
       <div className="d-flex d-inline-flex">
+        {" "}
         <div className="">
+          {" "}
           <div className="card cursos-logado border rounded bg-dark card text-white">
             <div className="card-body">
               {" "}
